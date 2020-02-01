@@ -4,7 +4,8 @@ Prueba técnica ​Napptilus​ ​Tech​ ​Labs
 Aplicación que muestra una lista de items y detalle de un item seleccionado.
 
 ## Librerías utilizadas:
-- gson para la serialización y deserialización de objectos a json y viceversa.
+- ###### gson:
+  Serialización y deserialización de objectos a json y viceversa.
   
   He seleccionado esta librería porque se puede configurar con retrofit
   para las serialización del json que se obtiene de servidor a objectos (entidad|modelo), 
@@ -12,7 +13,8 @@ Aplicación que muestra una lista de items y detalle de un item seleccionado.
 
   https://github.com/google/gson
  
-- retrofit cliente HTTP para la el consumo de una API REST
+- ###### retrofit:
+  cliente HTTP para la el consumo de una API REST
   
   Se pueden hacer peticiones con callback asincronas olvidandome de usar AsyncTask u otra clase para
   la getión de tareas en segundo plano.
@@ -24,6 +26,9 @@ Aplicación que muestra una lista de items y detalle de un item seleccionado.
  
   https://square.github.io/retrofit/
 
-  EndlessRecyclerViewScrollListener helper class para el manego de petición de datos a medida que el usuario se deslice 
+- ###### EndlessRecyclerViewScrollListener:
+  Helper class para el manego de petición de datos a medida que el usuario se deslice 
   hacia abajo en la pantalla de la lista de items
-  https://github.com/ardok/codepath/blob/master/TwitterClient/app/src/main/java/com/codepath/twitterclient/listeners/EndlessRecyclerViewScrollListener.java
+  
+  [EndlessRecyclerViewScrollListener]( https://github.com/ardok/codepath/blob/master/TwitterClient/app/src/main/java/com/codepath/twitterclient/listeners/EndlessRecyclerViewScrollListener.java)
+
