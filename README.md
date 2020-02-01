@@ -8,7 +8,7 @@ Aplicación con pantalla lista y pantalla detalle
   
   He seleccionado esta librería porque se puede configurar con retrofit
   para las serialización del json que se obtiene de servidor a objectos (entidad|modelo), 
-  olvidandome de tener que hacer el parseo de forma manualmente.
+  olvidandome de tener que hacer el mapping de datos.
 
   https://github.com/google/gson
  
