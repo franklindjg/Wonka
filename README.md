@@ -7,7 +7,7 @@ Aplicación con pantalla lista y pantalla detalle
   Serialización y deserialización de objectos a json y viceversa.
   
   He seleccionado esta librería porque se puede configurar con retrofit
-  para las serialización del json que se obtiene de servidor a objectos (entidad|modelo), 
+  para las serialización del json que se obtiene del servidor a objectos (entidad|modelo), 
   olvidandome de tener que hacer el mapping de datos.
 
   https://github.com/google/gson
