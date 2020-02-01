@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wonka</string>
+    <string name="detail_name">Detalle</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="no_data">Sin datos</string>
+    <string name="no_internet">Ups no hay conexión a internet.</string>
+    <string name="error_client_specific">Error específico del cliente.</string>
+    <string name="gender">Genero</string>
+    <string name="profession">Profesión</string>
+    <string name="country">País</string>
+    <string name="color">Color</string>
+    <string name="food">Comida</string>
+    <string name="age">Edad</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="favorite">Favorito</string>
+    <string name="filter">FILTRAR</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_gender">Selecionar genero</string>
+
+    <string-array name="gender_filer">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Ambos</item>
+    </string-array>
+</resources>
