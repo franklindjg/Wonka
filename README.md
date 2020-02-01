@@ -24,4 +24,6 @@ Aplicación que muestra una lista de items y detalle de un item seleccionado.
  
   https://square.github.io/retrofit/
 
-
+  EndlessRecyclerViewScrollListener helper class para el manego de petición de datos a medida que el usuario se deslice 
+  hacia abajo en la pantalla de la lista de items
+  https://github.com/ardok/codepath/blob/master/TwitterClient/app/src/main/java/com/codepath/twitterclient/listeners/EndlessRecyclerViewScrollListener.java
