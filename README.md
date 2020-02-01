@@ -18,7 +18,7 @@ Aplicación con pantalla lista y pantalla detalle
   Se pueden hacer peticiones con callback asincronas olvidandome de usar AsyncTask u otra clase para
   la getión de tareas en segundo plano.
   
-  Es altamente configurable
+  Es altamente configurable.
   
   Para hacer llamadas al servidor es tan facil como crear una interface donde podemos definir
   todo los métodos posibles que se pueden hacer.
@@ -26,7 +26,7 @@ Aplicación con pantalla lista y pantalla detalle
   https://square.github.io/retrofit/
 
 - ###### EndlessRecyclerViewScrollListener:
-  Helper class para la paginación de la lista de ítems a medida que se hace scroll down
+  Helper class para la paginación de la lista de ítems a medida que se desliza hacia abajo.
   
   [EndlessRecyclerViewScrollListener]( https://github.com/ardok/codepath/blob/master/TwitterClient/app/src/main/java/com/codepath/twitterclient/listeners/EndlessRecyclerViewScrollListener.java)
 
