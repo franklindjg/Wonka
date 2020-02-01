@@ -2,17 +2,17 @@ package com.keke.franklin.wonka.ui.detail
 
 
 import android.os.Bundle
+import android.os.StrictMode
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
-import com.bumptech.glide.Glide
 import com.google.android.material.snackbar.Snackbar
 import com.keke.franklin.wonka.R
 import com.keke.franklin.wonka.data.network.Constant
 import com.keke.franklin.wonka.data.network.model.Result
+import com.keke.franklin.wonka.utils.ViewUtils
 import kotlinx.android.synthetic.main.activity_detail.*
-import kotlinx.android.synthetic.main.content_main.*
 
 
 class DetailActivity : AppCompatActivity(), IDetailView {
@@ -22,6 +22,8 @@ class DetailActivity : AppCompatActivity(), IDetailView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
+        val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
+        StrictMode.setThreadPolicy(policy)
     }
 
     override fun onResume() {
@@ -38,7 +40,7 @@ class DetailActivity : AppCompatActivity(), IDetailView {
         loadingSpinner.centerRadius = 30f
         loadingSpinner.start()
 
-        Glide.with(this).load(result.image).placeholder(loadingSpinner).into(image)
+        image.setImageBitmap(ViewUtils.getImageBitmapFromUrl(result.image))
 
         name.text = StringBuilder().append(result.firstName).append(" ").append(result.lastName)
         gender.text = StringBuilder().append(applicationContext.getString(R.string.gender)).append(": ").append(result.gender)

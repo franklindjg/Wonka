@@ -2,9 +2,12 @@ package com.keke.franklin.wonka.utils
 
 import android.content.Context
 import android.content.DialogInterface
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import androidx.appcompat.app.AlertDialog
 import com.keke.franklin.wonka.R
 import com.keke.franklin.wonka.Wonka
+import java.net.URL
 
 
 object ViewUtils {
@@ -24,5 +27,10 @@ object ViewUtils {
 
         val dialog = builder.create()
         dialog.show()
+    }
+
+    fun getImageBitmapFromUrl(urlString: String?) : Bitmap {
+        val url = URL(urlString)
+        return BitmapFactory.decodeStream(url.openConnection().getInputStream())
     }
 }
