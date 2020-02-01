@@ -1,7 +1,6 @@
 # Wonka
-Prueba técnica ​Napptilus​ ​Tech​ ​Labs
 
-Aplicación que muestra una lista de items y detalle de un item seleccionado.
+Aplicación con pantalla lista y pantalla detalle
 
 ## Librerías utilizadas:
 - ###### gson:
@@ -14,7 +13,7 @@ Aplicación que muestra una lista de items y detalle de un item seleccionado.
   https://github.com/google/gson
  
 - ###### retrofit:
-  cliente HTTP para la el consumo de una API REST
+  Cliente HTTP para el consumo de una API REST.
   
   Se pueden hacer peticiones con callback asincronas olvidandome de usar AsyncTask u otra clase para
   la getión de tareas en segundo plano.
