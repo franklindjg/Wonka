@@ -35,11 +35,6 @@ class DetailActivity : AppCompatActivity(), IDetailView {
 
     override fun notifyActivity(result: Result) {
 
-        val loadingSpinner = CircularProgressDrawable(this)
-        loadingSpinner.strokeWidth = 5f
-        loadingSpinner.centerRadius = 30f
-        loadingSpinner.start()
-
         image.setImageBitmap(ViewUtils.getImageBitmapFromUrl(result.image))
 
         name.text = StringBuilder().append(result.firstName).append(" ").append(result.lastName)
