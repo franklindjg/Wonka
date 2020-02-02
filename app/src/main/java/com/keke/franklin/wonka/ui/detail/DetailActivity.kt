@@ -6,7 +6,6 @@ import android.os.StrictMode
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.google.android.material.snackbar.Snackbar
 import com.keke.franklin.wonka.R
 import com.keke.franklin.wonka.data.network.Constant
